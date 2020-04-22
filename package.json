@@ -1,6 +1,6 @@
 {
   "name": "conventional-changelog-docs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "conventional-changelog docs preset",
   "main": "index.js",
   "scripts": {
