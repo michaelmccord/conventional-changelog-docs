@@ -85,3 +85,4 @@ reference issues that this commit **Closes**.
 **Major Changes** should start with the word `MAJOR CHANGE:` with a space or two newlines. The rest of the commit message is then used for this.
 
 A detailed explanation can be found in this [document][commit-message-format].
+
