@@ -37,11 +37,15 @@ function getWriterOpts () {
         commit.type = 'Docs Update'
       } else if (commit.type === 'typo') {
         commit.type = 'Typo Fix'
-      } if (commit.type === 'revert' || commit.revert) {
+      } else if (commit.type === 'revert' || commit.revert) {
         commit.type = 'Reverts'
       } else if (discard) {
         return
-      } 
+      } else if (commit.type === 'build') {
+        commit.type = 'Build System'
+      } else if (commit.type === 'ci') {
+        commit.type = 'Continuous Integration'
+      }
 
       if (commit.scope === '*') {
         commit.scope = ''
