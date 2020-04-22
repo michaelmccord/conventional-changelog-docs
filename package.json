@@ -1,0 +1,39 @@
+{
+  "name": "conventional-changelog-docs",
+  "version": "1.0.0",
+  "description": "conventional-changelog docs preset",
+  "main": "index.js",
+  "scripts": {
+    "test-windows": "mocha --timeout 30000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/michaelmccord/conventional-changelog-docs.git"
+  },
+  "keywords": [
+    "conventional-changelog",
+    "docs",
+    "preset"
+  ],
+  "files": [
+    "conventional-changelog.js",
+    "conventional-recommended-bump.js",
+    "index.js",
+    "parser-opts.js",
+    "writer-opts.js",
+    "templates"
+  ],
+  "author": "Michael McCord",
+  "engines": {
+    "node": ">=10"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/michaelmccord/conventional-changelog-docs/issues"
+  },
+  "homepage": "https://github.com/michaelmccord/conventional-changelog-docs",
+  "dependencies": {
+    "compare-func": "^1.3.1",
+    "q": "^1.5.1"
+  }
+}
